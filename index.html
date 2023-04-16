@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+</head>
+
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+
+
+    .container{
+        /* border: 2px solid red; */
+    }
+
+
+    .navbar{
+        /* border: 3px solid green ; */
+        display: flex;
+    }
+
+
+    #logo{
+        display: inline-flex;
+        width: 21px;
+        height: 150px;
+        margin: 10px 12px;
+    }
+    #logo img{
+        filter: invert(100%);
+        position: relative;
+        cursor: pointer;
+        
+        /* opacity: 0.3px; */
+    }
+
+    .search {
+    display: inline-flex;
+    margin: 63px 295px 67px 637px;
+    justify-content: center;
+    height: 39px;
+    width: 631px;
+    /* position: relative; */
+    }
+
+    #search{
+        position: static;
+        border-radius: 20px;
+        width: 600px;
+       
+    }
+    /* .search input {
+        width: 10;
+        
+    } */
+
+    .btn{
+        width: 95px;
+        border-radius: 23px;
+        cursor: pointer;
+        background-color: beige;
+        
+
+    }
+    
+
+    #profile {
+    display: inline-flex;
+    width: 34px;
+    height: 113px;
+    top: 16px;
+    position: relative;
+    left: 160px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+}
+
+
+.video{
+    /* display: inline-flex; */
+    flex-direction: column;
+    width: 65rem;
+    height: 48rem;
+    border: 2px solid rgb(235, 194, 235);
+    margin: 20px 0px;
+    padding: 20px;
+    justify-content: center;
+    /* position: relative; */
+
+
+}
+.video p{
+    font-size: 30px;
+}
+
+.minivid{
+    
+    /* display: inline-flex; */
+    width: 46rem;
+    height: 61rem;
+    border: 2px solid rgb(235, 194, 235);
+    margin: 20px 50px;
+}
+
+.vid{
+    display: flex;
+    width: 45rem;
+    height: 15rem;
+    border: 2px solid rgb(235, 194, 235);
+    flex-direction: row;
+    pad: 20px;
+}
+
+.vid p{
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+.info{
+    display: inline-block;
+    width: 66rem;
+    height: 152px;
+    border: 2px solid rgb(235, 194, 235);
+    position: relative;
+    top: -180px;
+
+}
+
+.info img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    top: 20px
+}
+
+#s1{
+    
+
+    font-size: large;
+    /* position: absolute; */
+    justify-content: center;
+    /* margin: 56px 18px; */
+    width: 15%;
+
+}
+#s2{
+    font-size: large;
+    /* position: absolute; */
+    justify-content: center;
+    margin: 54px 0px 0px 30rem;
+    width: 10%;
+    
+}
+#s3{
+    font-size: large;
+    /* position: absolute; */
+    justify-content: center;
+    /* margin: 56px 18px; */
+    width: 10%;
+
+}
+#s4{
+    font-size: large;
+    /* position: absolute; */
+    justify-content: center;
+    /* margin: 56px 18px; */
+    width: 10%;
+
+}
+
+.comment {
+    position: relative;
+    width: 66rem;
+    height: 187px;
+    top: -182px;
+    border: 2px solid rgb(235, 194, 235);
+}
+.comment div input{
+    width: 64rem;
+}
+.post{
+
+        width: 95px;
+        border-radius: 23px;
+        cursor: pointer;
+        background-color: beige;
+        margin:20px auto;
+        font-size: medium;
+        /* align-items: last baseline; */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+<body>
+
+    <header class="container">
+   <section class="navbar">
+
+    <div id="logo">
+
+        <img src="logo.png" alt="Youtube" srcset="">
+    </div>
+
+
+
+    <div class="search">
+        <input type="text" name="search" id="search" placeholder="search ">
+        <button class="btn" type="submit">Search</button>
+    </div>
+
+    <div id="profile">
+        <img src="profile.png" alt="profile" srcset="">
+    </div>
+
+    
+    
+   </section>
+</header>
+
+<hr>
+
+<main class="main">
+    <div class="video">
+
+        <iframe width="1000" height="700" src="https://www.youtube.com/embed/z233dakUso8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <p>Taarak Mehta Ka Ooltah Chashmah | Haste Raho Comedy</p> 
+
+
+    </div>
+
+
+
+
+    <div class="minivid">
+
+        <div class="vid">
+
+            <iframe width="400" height="240" src="https://www.youtube.com/embed/HlXGDpyrd1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>
+                Babita और Jetha के बीच आई Daya | Taarak Mehta Ka Ooltah Chashmah
+
+            </p>
+
+            
+
+
+        </div>
+        <div class="vid">
+            <iframe width="400" height="240" src="https://www.youtube.com/embed/JkAfKlixGCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Babita जी की Help करने पहुँचा Jethalal | Taarak Mehta Ka Ooltah Chashmah | Jetha Ke Weird Dreams</p>
+
+
+        </div>
+        <div class="vid">
+
+
+            <iframe width="400" height="240" src="https://www.youtube.com/embed/2a7kUF7N2gM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <p>Jethalal Tries To Comfort Babita | Taarak Mehta Ka Ooltah Chashmah</p>
+        </div>
+        <div class="vid">
+            <iframe width="400" height="240" src="https://www.youtube.com/embed/HRsAL9GbZWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <p>Jetha और Babita के बीच आई Daya | Taarak Mehta Ka Ooltah Chashmah | Full Episodes</p>
+        </div>
+
+
+    </div>
+
+</main>
+<div class="info">
+    <img src="profile.png" alt="profile" srcset="">
+
+    <button class="btn" id="s1" type="submit">Subscribe</button>
+    <button class="btn" id="s2" type="submit">Like</button>
+    <button class="btn" id="s3" type="submit">Share</button>
+    <button class="btn" id="s4" type="submit">More</button>
+
+
+    
+
+</div>
+
+
+
+
+<section class="comment">
+
+    <h1>Comments</h1>
+
+    <div>
+        <input type="text" name="search" id="comments" placeholder="Comments">
+
+        <button class="post" type="submit">post</button>
+
+    </div>
+
+</section>
+
+   
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
